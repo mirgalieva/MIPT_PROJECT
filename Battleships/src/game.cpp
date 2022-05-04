@@ -1,5 +1,5 @@
-#include "../game.h"
-#include "../graphicUI.h"
+#include "../include/game.h"
+#include "../include/graphicUI.h"
 
 Game::Game(): alive_players_count(player_count) {
     UI* ui = new GraphicUI();
@@ -15,6 +15,21 @@ Game::Game(): alive_players_count(player_count) {
 void Game::startGame() {
     for (auto type : commonShipSet) {
         for (auto player : players) {
+          std::string typeOfShipString;
+          switch (type) {
+            case Ship::ONEDECK:
+              typeOfShipString = "one deck";
+              break;
+            case Ship::TWODECK:
+              typeOfShipString = "two deck";
+              break;
+            case Ship::THREEDECK:
+              typeOfShipString = "three deck";
+              break;
+            case Ship::FOURDECK:
+              typeOfShipString = "four deck";
+              break;
+          }
             player.setShip(type);
         }
     }

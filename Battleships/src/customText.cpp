@@ -1,4 +1,4 @@
-#include "../customText.h"
+#include "../include/customText.h"
 
 CustomText::CustomText(const std::string& text, const sf::Font& font, int position_x, int position_y):
         text_object(text, font) {

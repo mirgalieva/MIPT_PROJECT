@@ -1,0 +1,1 @@
+CMakeLists.txt not found in /home/alsu/MIPT_PROJECT/battleships/Battleships Select CMakeLists.txt

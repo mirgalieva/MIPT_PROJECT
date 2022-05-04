@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="battleships"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battleships">
+				<Option output="/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/battleships" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 battleships"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battleships/fast">
+				<Option output="/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/battleships" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 battleships/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/alsu/MIPT_PROJECT/Battleships/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/UI.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/cell.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/consoleUI.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/constants.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/customText.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/field.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/game.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/graphicUI.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/menu.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/player.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/settings.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/include/ship.h">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/main.cpp">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/src/cell.cpp">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/src/customText.cpp">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/src/field.cpp">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/src/game.cpp">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/src/menu.cpp">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/src/player.cpp">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/src/ship.cpp">
+			<Option target="battleships"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/home/alsu/MIPT_PROJECT/Battleships/../../../../usr/lib/x86_64-linux-gnu/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

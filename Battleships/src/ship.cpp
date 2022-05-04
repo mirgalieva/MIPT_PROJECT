@@ -1,4 +1,4 @@
-#include "../ship.h"
+#include "../include/ship.h"
 
 Ship::Ship(ShipType type): sz(type + 1), hp(type + 1), state(Ship::OK) {}
 

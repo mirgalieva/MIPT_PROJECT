@@ -1,10 +1,10 @@
-#include "../menu.h"
+#include "../include/menu.h"
 #include "SFML/Graphics.hpp"
 #include "SFML/Audio.hpp"
-#include "../game.h"
-#include "../settings.h"
-#include "../constants.h"
-#include "../customText.h"
+#include "../include/game.h"
+#include "../include/settings.h"
+#include "../include/constants.h"
+#include "../include/customText.h"
 
 using namespace sf;
 

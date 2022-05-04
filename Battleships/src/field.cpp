@@ -1,5 +1,5 @@
-#include "../field.h"
-#include "../cell.h"
+#include "../include/field.h"
+#include "../include/cell.h"
 
 Field::Field(size_t _sz): sz(_sz) {
     field.resize(sz);
