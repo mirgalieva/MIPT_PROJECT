@@ -1,8 +1,8 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
-#include "spriteManager.h"
-#include "field.h"
+#include "../headers/spriteManager.h"
+#include "../headers/field.h"
 using namespace sf;
 
 int main() {
