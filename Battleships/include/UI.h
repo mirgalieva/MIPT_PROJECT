@@ -9,6 +9,7 @@ public:
                               std::string notification="") = 0;
     virtual void displayNotification(std::string notification) = 0;
     virtual void waitForNextTurn() = 0;
+    virtual int getNumber() = 0;
     ~UI() = default;
 
 };

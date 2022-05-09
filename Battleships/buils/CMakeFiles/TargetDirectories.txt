@@ -1,0 +1,3 @@
+/home/alsu/MIPT_PROJECT/Battleships/buils/CMakeFiles/rebuild_cache.dir
+/home/alsu/MIPT_PROJECT/Battleships/buils/CMakeFiles/edit_cache.dir
+/home/alsu/MIPT_PROJECT/Battleships/buils/CMakeFiles/battleships.dir

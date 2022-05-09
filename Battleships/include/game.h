@@ -15,7 +15,8 @@ private:
                                                                  Ship::TWODECK,Ship::TWODECK,Ship::TWODECK,
                                                                  Ship::THREEDECK,Ship::THREEDECK,
                                                                  Ship::FOURDECK
-                                                                 };
+                                                                  };
+
     std::vector<std::string> attackResult = {"Missed!", "Gun was jammed!", "Got it!", "Sunk it!"};
 
     std::vector<Player> players;
@@ -24,6 +25,11 @@ private:
     Player* getNextPlayer(const Player* current);
 
     void attack(Player* current, Player* next);
+
+    void bombAttackSquare(Player* current, Player* next);
+
+    void bombAttackLine(Player* current, Player* next);
+
     void win(Player* player);
 };
 

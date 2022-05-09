@@ -1,0 +1,10 @@
+# ninja log v5
+0	29	1652101263460517102	CMakeFiles/battleships.dir/main.cpp.o	e5fbcefa3c1ce003
+1	562	1652101263992521637	CMakeFiles/battleships.dir/src/cell.cpp.o	1f0e37e420ac90f1
+1	644	1652101264076522351	CMakeFiles/battleships.dir/src/ship.cpp.o	60d6a167a09b6670
+2	720	1652101264152522997	CMakeFiles/battleships.dir/src/player.cpp.o	6f2202fecb5b02ce
+3	767	1652101264196523371	CMakeFiles/battleships.dir/src/field.cpp.o	49f9987c1d16ca5
+1	969	1652101264400525105	CMakeFiles/battleships.dir/src/customText.cpp.o	b803a7ca098ba05e
+0	1162	1652101264592526737	CMakeFiles/battleships.dir/src/menu.cpp.o	f745416db2033fc5
+1	1221	1652101264652527247	CMakeFiles/battleships.dir/src/game.cpp.o	48758af271ab8d38
+1221	1322	1652101264752528097	battleships	50a65e772a845f06

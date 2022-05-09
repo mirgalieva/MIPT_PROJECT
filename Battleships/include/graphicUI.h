@@ -82,7 +82,6 @@ public:
   }
 
   void waitForNextTurn() override {
-    displayNotification("press enter to let next player move!");
     while (window.isOpen()) {
       sf::Event event;
       while (window.pollEvent(event)) {
@@ -93,6 +92,19 @@ public:
           return;
       }
     }
+  }
+  int getNumber() override {
+      while(window.isOpen()) {
+          sf::Event event;
+          while (window.pollEvent(event)) {
+              if (event.type == sf::Event::Closed) {
+                  window.close();
+              }
+              if (event.type == sf::Event::TextEntered) {
+                  return static_cast<char>(event.text.unicode) - '0';
+              }
+          }
+      }
   }
 };
 

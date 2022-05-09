@@ -96,7 +96,11 @@ Player::AttackState Player::keep_attack(Position position) {
 
 Position Player::attack(Field *enemy_field) {
   ui->displayField(*enemy_field, true, name, "Attack");
-  return ui->getPosition();
+  while (true) {
+      Position attack_position = ui->getPosition();
+      if (attack_position.x >= 0 && attack_position.y < size_of_board && attack_position.y >=0 && attack_position.y < size_of_board)
+          return attack_position;
+  }
 }
 
 bool Player::is_losed() const {
