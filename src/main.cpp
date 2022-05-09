@@ -7,7 +7,7 @@ using namespace sf;
 
 int main() {
     const int app_width = 1200, app_height = 800;
-    RenderWindow app(VideoMode(app_width, app_height), "stupid game");
+    RenderWindow app(VideoMode(app_width, app_height), "battleship");
     int frame_limit = 60;
     app.setFramerateLimit(frame_limit);
     app.setVerticalSyncEnabled(false);
