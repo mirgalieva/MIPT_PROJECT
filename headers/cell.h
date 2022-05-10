@@ -1,45 +1,64 @@
+#ifndef BATTLESHIPS_CELL_H
+#define BATTLESHIPS_CELL_H
 #pragma once
-#include <SFML/Graphics.hpp>
 
-using namespace sf;
+#include "constants.h"
+#include "vector"
+#include "ship.h"
+
+struct Position {
+    int x;
+    int y;
+
+    bool operator==(Position another) { return x == another.x && y == another.y; }
+
+    bool operator!=(Position another) { return !(*this == another); }
+
+    Position(int x, int y) : x(x), y(y) {}
+
+    Position() = default;
+
+    void read() {
+        char pos_x;
+        char pos_y;
+        std::cin >> pos_x;
+        std::cin >> pos_y;
+        x = pos_x - 'a';
+        y = pos_y - '1';
+    }
+
+};
+
+class Ship;
 
 class Cell {
-    RectangleShape cell;
-    CELL_STATE state = UNKNOWN;
 public:
-    Cell() = default;
+    enum CellState {
+        DEAD,
+        INJURED,
+        EMPTY,
+        SHIP,
+    };
 
-    Cell(float sizeOfCell_x, float sizeOfCell_y, CELL_STATE state = UNKNOWN) : state(state) {
-        cell.setSize({sizeOfCell_x, sizeOfCell_y});
-        cell.setOutlineColor(Color::Black);
-        cell.setOutlineThickness(5);
-        cell.setFillColor(Color::White);
-    }
-    CELL_STATE getState() {
-        return state;
-    }
-    void setPosition(int pos_x,int pos_y) {
-        cell.setPosition(pos_x,pos_y);
-    }
-    void setState(CELL_STATE state) {
-        this->state = state;
-        if (state == UNKNOWN) {
-            cell.setFillColor(Color::White);
-        } else
-            if (state == DEAD) {
-                cell.setFillColor(Color::Red);
-            } else
-                if(state == INJURED) {
-                    cell.setFillColor(Color::Cyan);
-                } else
-                    if (state == SHIP) {
-                        cell.setFillColor(Color::Black);
-                    } else
-                        if (state == EMPTY) {
-                            cell.setFillColor(Color::Blue);
-                        }
-    }
-    void print(RenderWindow& app) {
-        app.draw(cell);
-    }
+
+    Cell();
+
+    void setState(CellState _state);
+
+    CellState getState() const;
+
+    void setShip(Ship* _ship);
+
+    Ship* getShip() const;
+
+    bool getIsHited() const;
+
+    void setIsHited(bool _isHited);
+
+private:
+    CellState state;
+    Ship* ship;
+    bool isHited = false;
 };
+
+#endif //BATTLESHIPS_CELL_H
