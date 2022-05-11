@@ -4,6 +4,7 @@
 #include "SFML/Audio.hpp"
 #include "../headers/game.h"
 #include "../headers/settings.h"
+#include "../headers/constants.h"
 #include "../headers/customText.h"
 
 using namespace sf;
