@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="battleships" targetName="battleships" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0544127-dfe9-4f0b-9bf7-875aa0e6f7d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/battleships/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/headers/shipBuilder.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/cell.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/customText.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/field.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/game.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/menu.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/player.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/ship.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/battleships" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/headers/shipBuilder.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/battleships/headers/shipBuilder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/UI.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/UI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/cell.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/cell.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/consoleUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/consoleUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/constants.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/constants.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/customText.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/customText.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/field.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/field.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/graphicUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/graphicUI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/settings.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/settings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/ship.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/ship.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/cell.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/customText.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/customText.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/field.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/field.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/OpenSans-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/fonts/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/music/menu_music.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/music/menu_music.ogg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/ship.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3" />
+  </component>
+  <component name="ProjectId" id="28wanaPclNsiXTO7jBfPtjuISBA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/battleships/headers" />
+      <recent name="$PROJECT_DIR$/battleships/src" />
+      <recent name="$PROJECT_DIR$/battleships" />
+      <recent name="$PROJECT_DIR$/headers" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0544127-dfe9-4f0b-9bf7-875aa0e6f7d3" name="Changes" comment="" />
+      <created>1652130271042</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1652130271042</updated>
+      <workItem from="1652130275856" duration="8000" />
+      <workItem from="1652130759943" duration="342000" />
+      <workItem from="1652188717902" duration="660000" />
+      <workItem from="1652194412732" duration="813000" />
+      <workItem from="1652198290526" duration="426000" />
+      <workItem from="1652252393394" duration="1936000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
