@@ -17,6 +17,21 @@ void Player::setUi(UI *_ui) {
   ui = _ui;
 }
 
+bool Player::check_to_set(Position pos) const {
+  for (int i = -1; i < 2; ++i) {
+    for (int j = -1; j < 2; ++j) {
+      int x = pos.x + i;
+      int y = pos.y + j;
+      if (x >= 0 && x < size_of_board && y >= 0 && y < size_of_board) {
+        if (field->at(y, x)->getState() != Cell::EMPTY) {
+          return true;
+        }
+      }
+    }
+  }
+  return false;
+}
+
 void Player::setShip(Ship::ShipType type) {
   std::string typeOfShipString;
   switch (type) {
@@ -41,6 +56,16 @@ void Player::setShip(Ship::ShipType type) {
     if (start.x == end.x && abs(start.y - end.y) == type) {
       if (start.y > end.y)
         std::swap(start, end);
+      bool isBad = false;
+      for (int i = 0; i <= type; ++i) {
+        if (check_to_set({start.x, start.y + i}))
+          isBad = true;
+      }
+
+      if (isBad) {
+        ui->displayField(*field,false,getName(),"you can't set ship on this position");
+        continue;
+      }
       for (int i = 0; i <= type; ++i) {
         ship->addCell(field->at(start.y + i, start.x));
       }
@@ -50,6 +75,15 @@ void Player::setShip(Ship::ShipType type) {
     } else if (start.y == end.y && abs(start.x - end.x) == type) {
       if (start.x > end.x)
         std::swap(start, end);
+      bool isBad = false;
+      for (int i = 0; i <= type; ++i) {
+        if (check_to_set({start.x + i, start.y}))
+          isBad = true;
+      }
+      if (isBad) {
+        ui->displayField(*field,false,getName(),"you can't set ship on this position");
+        continue;
+      }
       for (int i = 0; i <= type; ++i) {
         ship->addCell(field->at(start.y, start.x + i));
       }
@@ -97,9 +131,10 @@ Player::AttackState Player::keep_attack(Position position) {
 Position Player::attack(Field *enemy_field) {
   ui->displayField(*enemy_field, true, name, "Attack");
   while (true) {
-      Position attack_position = ui->getPosition();
-      if (attack_position.x >= 0 && attack_position.y < size_of_board && attack_position.y >=0 && attack_position.y < size_of_board)
-          return attack_position;
+    Position attack_position = ui->getPosition();
+    if (attack_position.x >= 0 && attack_position.y < size_of_board && attack_position.y >= 0 &&
+        attack_position.y < size_of_board)
+      return attack_position;
   }
 }
 

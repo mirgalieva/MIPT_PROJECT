@@ -1,3 +1,0 @@
-/home/nikita/CLionProjects/MIPT_PROJECT/cmake-build-debug/CMakeFiles/battleships.dir
-/home/nikita/CLionProjects/MIPT_PROJECT/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/nikita/CLionProjects/MIPT_PROJECT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
