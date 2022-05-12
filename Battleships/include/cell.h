@@ -55,9 +55,9 @@ public:
 
     void setIsHited(bool _isHited);
 
+  Ship* ship =nullptr;
 private:
-    CellState state;
-    Ship* ship;
+  CellState state;
     bool isHited = false;
 };
 

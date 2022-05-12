@@ -24,11 +24,11 @@ private:
 
     Player* getNextPlayer(const Player* current);
 
-    void attack(Player* current, Player* next);
+    bool attack(Player* current, Player* next);
 
-    void bombAttackSquare(Player* current, Player* next);
+    bool bombAttackSquare(Player* current, Player* next);
 
-    void bombAttackLine(Player* current, Player* next);
+    bool bombAttackLine(Player* current, Player* next);
 
     void win(Player* player);
 };

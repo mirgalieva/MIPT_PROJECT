@@ -38,6 +38,8 @@ public:
 
     bool is_losed() const;
 
+    bool check_to_set(Position pos) const;
+
 private:
     size_t id;
     UI* ui;
