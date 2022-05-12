@@ -16,12 +16,13 @@ Game::Game() {
 }
 
 void Game::startGame() {
+  for (auto player: players) {
     for (auto type: commonShipSet) {
-        for (auto player: players) {
-            std::string typeOfShipString;
-            player.setShip(type);
-        }
+      std::string typeOfShipString;
+      player.setShip(type);
     }
+  }
+
 }
 
 void Game::play() {
