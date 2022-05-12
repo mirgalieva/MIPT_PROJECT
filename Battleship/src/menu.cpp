@@ -22,10 +22,10 @@ Menu::Menu() {
 
     CustomText exit_text("EXIT", font, app_width / 2, 2 * app_height / 3);
 
-    Music menu_background_music;
-    menu_background_music.openFromFile("../src/music/menu_music.ogg");
-    menu_background_music.setLoop(true);
-    menu_background_music.play();
+    //Music menu_background_music;
+    //menu_background_music.openFromFile("../src/music/menu_music.ogg");
+    //menu_background_music.setLoop(true);
+    //menu_background_music.play();
 
 
     // menu event loop

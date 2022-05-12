@@ -16,8 +16,8 @@ private:
                                                                      sf::Color::Blue,
                                                                      sf::Color::Black, sf::Color::White};
 public:
-    GraphicUI() : window(sf::RenderWindow(sf::VideoMode(app_width, app_height),
-                                          "battleships")) {}
+    GraphicUI() : window(sf::VideoMode(app_width, app_height),
+                                          "battleships") {}
 
     Position getPosition() override {
         int leftTopX = app_width / 2 - 6 * size_of_cell;
