@@ -12,70 +12,142 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0544127-dfe9-4f0b-9bf7-875aa0e6f7d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/battleships/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CompilerIdC/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/CXX.includecache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/DependInfo.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/build.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/cmake_clean.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/depend.internal" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/depend.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/flags.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/headers/shipBuilder.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/link.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/main.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/progress.make" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/cell.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/customText.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/field.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/game.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/menu.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/player.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/battleships.dir/src/ship.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/battleships" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/build/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/headers/shipBuilder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/battleships/headers/shipBuilder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/UI.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/UI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/cell.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/cell.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/consoleUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/consoleUI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/constants.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/constants.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/customText.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/customText.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/field.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/field.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/game.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/graphicUI.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/graphicUI.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/menu.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/player.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/settings.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/settings.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/ship.h" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/headers/ship.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/cell.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customText.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/customText.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/field.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/field.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/OpenSans-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/fonts/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/menu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/music/menu_music.ogg" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/music/menu_music.ogg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/player.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ship.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/battleships/src/ship.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/.idea/MIPT_PROJECT.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/UML Diagram - Frame 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/src/cell.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/src/customText.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/src/field.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/src/game.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/src/menu.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/src/player.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/battleships.dir/src/ship.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/battleships" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/build/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/reply/cache-v2-517958ba451e310dbe7c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c3505cce5050b8e5234b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d38bcf534e0ad2b73db9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-11T15-27-50-0351.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/reply/target-battleships-Debug-2c811fb1844eae7ad6c6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ee5ca47e57a615ee224c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/battleships.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/battleships.dir/src/cell.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/battleships.dir/src/customText.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/battleships.dir/src/field.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/battleships.dir/src/game.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/battleships.dir/src/menu.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/battleships.dir/src/player.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/battleships.dir/src/ship.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/battleships" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/UI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/cell.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/consoleUI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/constants.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/customText.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/field.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/graphicUI.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/menu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/player.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/settings.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/include/ship.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/cell.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/customText.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/field.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/fonts/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/menu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/music/menu_music.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Battleship/src/ship.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UML Diagram - Frame 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/UI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/cell.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/consoleUI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/constants.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/customText.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/field.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/game.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/graphicUI.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/menu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/player.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/settings.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/ship.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/shipBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/headers/shipBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/cell.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/customText.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/field.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/fonts/OpenSans-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/game.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/menu.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/music/menu_music.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/player.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/battleships/src/ship.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +211,9 @@
       <workItem from="1652194412732" duration="813000" />
       <workItem from="1652198290526" duration="426000" />
       <workItem from="1652252393394" duration="1936000" />
+      <workItem from="1652283151578" duration="1690000" />
+      <workItem from="1652349406072" duration="21000" />
+      <workItem from="1652370691375" duration="1304000" />
     </task>
     <servers />
   </component>
