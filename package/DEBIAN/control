@@ -1,0 +1,10 @@
+Package: battleship
+Version: 1.0
+Section: unknown
+Priority: optional
+Depends: libsfml-graphics2.5, libsfml-audio2.5, libsfml-window2.5, libsfml-system2.5, lib32stdc++6, libstdc++6, libgcc-s1, libc6
+Architecture: amd64
+Essential: no
+Installed-Size: 2977787
+Maintainer: mirgalieva.ai@phystech.edu
+Description: Classic battleship game
