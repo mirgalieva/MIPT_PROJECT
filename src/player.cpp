@@ -13,7 +13,7 @@ void Player::setField(Field *_field) {
   field = _field;
 }
 
-void Player::setUi(UI *_ui) {
+void Player::setUi(GraphicUI *_ui) {
   ui = _ui;
 }
 
@@ -91,7 +91,7 @@ void Player::setShip(Ship::ShipType type) {
       break;
     }
   }
-  ui->displayField(*field, false);
+  ui->displayField(*field, false,getName(),"next turn");
   ui->waitForNextTurn();
 }
 
@@ -99,7 +99,7 @@ std::string Player::getName() const {
   return name;
 }
 
-UI *Player::getUi() const {
+GraphicUI *Player::getUi() const {
   return ui;
 }
 

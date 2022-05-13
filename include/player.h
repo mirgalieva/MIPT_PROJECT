@@ -3,7 +3,7 @@
 
 #include <string>
 #include "field.h"
-#include "UI.h"
+#include "graphicUI.h"
 
 class Player {
 public:
@@ -16,7 +16,7 @@ public:
 
     Player(size_t _id);
 
-    void setUi(UI* _ui);
+    void setUi(GraphicUI* _ui);
 
     void setName(std::string _name);
 
@@ -24,7 +24,7 @@ public:
 
     void setShip(Ship::ShipType type);
 
-    UI* getUi() const;
+    GraphicUI* getUi() const;
 
     std::string getName() const;
 
@@ -42,7 +42,7 @@ public:
 
 private:
     size_t id;
-    UI* ui;
+    GraphicUI* ui;
     std::string name;
     Field* field;
     std::vector<Ship*> ships;

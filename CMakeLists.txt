@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 find_package(SFML 2.5 COMPONENTS graphics audio window system REQUIRED)
 
 add_executable(battleships main.cpp src/menu.cpp include/menu.h src/game.cpp include/game.h include/settings.h
-        include/customText.h src/customText.cpp include/constants.h src/cell.cpp include/cell.h src/ship.cpp include/ship.h src/player.cpp include/player.h src/field.cpp include/field.h include/UI.h include/graphicUI.h include/consoleUI.h)
+        include/customText.h src/customText.cpp include/constants.h src/cell.cpp include/cell.h src/ship.cpp include/ship.h src/player.cpp include/player.h src/field.cpp include/field.h include/UI.h include/consoleUI.h src/graphicUI.cpp src/consoleUI.cpp)
 
 target_link_libraries(battleships sfml-graphics sfml-audio sfml-window sfml-system X11)
 set(CMAKE_THREAD_LIBS_INIT "-lpthread")
